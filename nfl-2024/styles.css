@@ -1,6 +1,6 @@
-img, p, h1, h2, .divider {
+img, p, h1, h2, .divider, ol {
     width: 100%;
-    max-width: 640px;
+    max-width: 700px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -29,10 +29,36 @@ h1, h2 {
 
 .name-tag {
     font-family: "Obritron";
-    color: #66C266;
+}
+
+/* #sig {
+    display: block;
+    max-width: 560px;
+    max-height: 500px;
+} */
+
+#dan {
+    max-width: 300px;
+    max-height: 250px;
+}
+
+#saquon {
+    max-width: 400px;
+    max-height: 350px;
 }
 
 #food {
     display: block;
     max-width: 800px;
+}
+
+#myTooltip {
+    position: absolute;
+    pointer-events: none;
+    padding: 15px;
+	background-color: white;
+    border-color: black;
+	border: 1px solid black;
+    border-radius: 10px;
+    opacity: 0;
 }
