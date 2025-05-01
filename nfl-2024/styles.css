@@ -1,6 +1,6 @@
 img, p, h1, h2, .divider, ol {
     width: 100%;
-    max-width: 700px;
+    max-width: 900px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -15,7 +15,7 @@ img {
 }
 
 p {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.4;
     font-family: "Liter";
 }
@@ -40,7 +40,7 @@ h1, h2, ol {
 .name-tag {
     font-family: "Liter";
     line-height: 0.8;
-    font-size: 18px;
+    font-size: 21px;
 }
 
 #sig {
@@ -58,10 +58,9 @@ h1, h2, ol {
     max-height: 250px;
 }
 
-#saquon-chart {
-    max-width: 900px;
-    max-height: 600px;
-}
+/* #saquon-chart {
+    max-height: 800px;
+} */
 
 #saquon {
     max-width: 400px;
